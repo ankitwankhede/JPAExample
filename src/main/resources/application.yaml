@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: JPAExample
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SpringBoot
+    username: postgres
+    password: 4596
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format:
+          sql: true
